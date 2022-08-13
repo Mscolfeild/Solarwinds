@@ -33,6 +33,6 @@ if(($FirstFileCal.LastWriteTime.Day -eq (Get-Date).AddDays(0).Day) -and $file.Co
 }
 else
 {
-        Write-Host 'Message.State: BThe file did not occur today or there are less than 10 files in the folder. Please check.  Last created file : ' $FirstFile
+        Write-Host 'Message.State: The file did not occur today or there are less than 10 files in the folder. Please check.  Last created file : ' $FirstFile
         Write-Host 'Statistic.State: 1'
 }
